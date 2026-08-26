@@ -1,0 +1,20 @@
+{
+  "name": "ag-livo",
+  "version": "0.1.0",
+  "description": "AI Research Agent built on TrueForge",
+  "type": "module",
+  "scripts": {
+    "dev": "npx @truefoundry/trueforge",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  },
+  "dependencies": {
+    "@truefoundry/trueforge": "^0.x.x"
+  }
+}
